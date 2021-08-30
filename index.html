@@ -1,42 +1,20 @@
 ---
 layout: default
-title: Blog
+title: Podcast
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
+  {% for episode in site.hackerspublics reversed %}
   <div class="post">
     <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
+      <a href="{{ episode.url }}">
+        {{ episode.title }}
       </a>
     </h1>
-    {{ post.content }}
-    <span class="post-date">{% include date-fr.html date=post.date %}</span>
-    <span class="post-tags">Tags :
-      {% assign sortedTags = post.tags | sort%}
-      {% for tag in sortedTags %}
-        <a href="/tag/{{ tag }}">{{ tag }}</a> /
-      {% endfor %}
-    </span>
+    {{ episode.content }}
+    Téléchargez l'épisode <a href="https://hackerspublics.s3.fr-par.scw.cloud/{{ episode.file }}">en mp3</a> ou écoutez-le sur <a href="{{ episode.spotify_url }}">Spotify</a>, <a href="{{ episode.itunes_url }}">iTunes</a> ou votre <a href="{{ site.url }}/hackerspublics.rss">application de podcast préférée</a>.
+    <span class="post-date">{% include date-fr.html date=episode.date %}</span>
     {% include share-buttons.html %}
   </div>
   {% endfor %}
 </div>
-
-<!-- <div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Articles plus ancients</a>
-  {% else %}
-    <span class="pagination-item older">Articles plus ancients</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Articles plus récents</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Articles plus récents</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Articles plus récents</span>
-  {% endif %}
-</div> -->
