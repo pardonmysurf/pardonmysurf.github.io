@@ -1,8 +1,8 @@
 module.exports = {
   ci: {
     collect: {
-      staticDistDir: '/home/runner/work/seiteta.github.io/seiteta.github.io',
-      url: ['http://localhost/site/index.html', 'http://localhost/site/hackerspublics/index.html'],
+      staticDistDir: '/home/runner/work/hackerspublics.github.io/hackerspublics.github.io',
+      url: ['http://localhost/site/index.html'],
       numberOfRuns: 1
     },
     assert: {

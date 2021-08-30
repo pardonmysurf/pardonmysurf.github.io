@@ -2,7 +2,6 @@
 title: "Pourquoi je lance un podcast sur l'innovation publique en 2020"
 description: "Le matériel est prêt, la première interview est calée : c'est bon, je lance à la rentrée un podcast pour aller à la rencontre de celles et ceux qui participent à la transformation de l'administration."
 image: https://images.unsplash.com/photo-1490476323407-63a2b2baa393?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80
-tags: [Podcast, Innovation, Administration, Interview, Nouveauté]
 ---
 
 Le matériel est prêt, la première interview est calée : c'est bon, je lance à la rentrée un podcast pour aller à la rencontre de celles et ceux qui innovent et participent à la transformation de l'administration.

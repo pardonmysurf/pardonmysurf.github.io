@@ -6,12 +6,6 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   {{ content }}
   <span class="post-date">{% include date-fr.html date=page.date %}</span>
-  <span class="post-tags">Tags :
-    {% assign sortedTags = page.tags | sort%}
-    {% for tag in sortedTags %}
-      <a href="/tag/{{ tag }}">{{ tag }}</a> /
-    {% endfor %}
-  </span>
   {% include share-buttons.html %}
 </div>
 
