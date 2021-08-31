@@ -32,10 +32,10 @@
 
 @font-face {
  font-family: 'Roboto';
- src: url('Roboto-Bold.ttf')  format('truetype'),
- url('Roboto-BoldItalic.ttf')  format('truetype'),
- url('Roboto-Italic.ttf')  format('truetype'),
- url('Roboto-Regular.ttf')  format('truetype');
+ src: url('../font/Roboto-Bold.ttf')  format('truetype'),
+ url('../font/Roboto-BoldItalic.ttf')  format('truetype'),
+ url('../font/Roboto-Italic.ttf')  format('truetype'),
+ url('../font/Roboto-Regular.ttf')  format('truetype');
 }
 
 
