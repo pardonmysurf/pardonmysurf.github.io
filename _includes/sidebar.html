@@ -3,10 +3,10 @@
     <div class="sidebar-about">
       <div>
         <img  class="sidebar-image"
-              src="{{ site.baseurl }}/public/img/frederic-bardolle.png"
+              src="{{ site.baseurl }}/public/img/hp_coeur.png"
               alt="Frédéric Bardolle"
-              srcset="{{ site.baseurl }}/public/img/frederic-bardolle.png 250w,
-                      {{ site.baseurl }}/public/img/frederic-bardolle-low-res.png 100w"
+              srcset="{{ site.baseurl }}/public/img/hp_coeur 250w,
+                      {{ site.baseurl }}/public/img/hp_coeur-low-res.png 100w"
               sizes="(max-width: 768px) 80px,
                       150px">
         </img>
@@ -24,18 +24,7 @@
         <!-- Navigation -->
         <nav class="b-nav sidebar-nav">
           <h4>À lire et à écouter</h4>
-          <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.url }}">• Blog ✍️</a>
           <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.podcast_url }}">• Podcast 🎙</a>
-
-          <h4>À propos</h4>
-          {% assign pages_list = site.pages %}
-          {% for node in pages_list %}
-            {% if node.title != null %}
-                {% if node.layout == "page_blog" %}
-                  <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">• {{ node.title }}</a>
-                {% endif %}
-            {% endif %}
-          {% endfor %}
 
           <h4>Informations</h4>
           {% assign pages_list = site.pages %}
