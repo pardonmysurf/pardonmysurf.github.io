@@ -35,6 +35,10 @@
  src: url('../font/Roboto-Regular.ttf')  format('truetype');
 }
 
+@font-face {
+ font-family: 'Roboto-Bold';
+ src: url('../font/Roboto-Bold.ttf')  format('truetype');
+}
 
 html {
   font-family: 'Roboto', sans-serif;
@@ -114,6 +118,7 @@ html {
   color: rgba(0, 0, 0, 0.84);
   font-size: 1.25rem;
   vertical-align: middle;
+  font-family: 'Roboto-Bold';
 }
 
 @media (prefers-color-scheme: dark) {
