@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
   {% assign words = page.title | split: ':' %}
+  <h1 class="post-title">{{ words[0] }}</h1>
   <blockquote>{{ words[1] }}</blockquote>
 
   {{ content }}
