@@ -76,13 +76,11 @@ html {
     bottom: 0;
     width: 18rem;
     text-align: left;
-    border-right: #586e75 2px solid;
   }
 }
 @media (max-width: 48em) {
   .sidebar{
     padding: 1rem 1rem;
-    border-bottom: #586e75 2px solid;
   }
   .mj-w-res-iframe{
     display: none;
