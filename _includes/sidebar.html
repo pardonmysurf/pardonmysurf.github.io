@@ -4,7 +4,7 @@
       <div>
         <img  class="sidebar-image"
               src="{{ site.baseurl }}/public/img/hp_coeur.png"
-              alt="Frédéric Bardolle"
+              alt="Hackers publics"
               srcset="{{ site.baseurl }}/public/img/hp_coeur 250w,
                       {{ site.baseurl }}/public/img/hp_coeur-low-res.png 100w"
               sizes="(max-width: 768px) 80px,
@@ -23,24 +23,20 @@
         </div>
         <!-- Navigation -->
         <nav class="b-nav sidebar-nav">
-          <h4>À lire et à écouter</h4>
-          <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.podcast_url }}">• Podcast 🎙</a>
+          <h4>
+            <a href="{{ site.baseurl }}/licence">licence</a>
+          </h4>
+          <h4>
+            <a href="{{ site.url }}/hackerspublics.rss">flux RSS</a>
+          </h4>
+          <h4>
+            <a href="">twitter</a>
+          </h4>
+          <h4>
+            <a href="">contact</a>
+          </h4>
 
-          <h4>Informations</h4>
-          {% assign pages_list = site.pages %}
-          {% for node in pages_list %}
-            {% if node.title != null %}
-                {% if node.layout == "page_info" %}
-                  <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">• {{ node.title }}</a>
-                {% endif %}
-            {% endif %}
-          {% endfor %}
         </nav>
-        <div class="sidebar-small">
-          <small>
-            Pour recevoir directement les nouveaux articles dans votre boîte mail, vous pouvez vous abonner en m'envoyant <a href="mailto:blog@f14e.fr?subject=Je%20voudrais%20m%27abonner%20%C3%A0%20f14e.fr&body=Merci%20!">message</a>, ou en suivant le <a href="{{ site.baseurl }}/flux.xml">flux RSS</a>.
-          </small>
-        </div>
       </div>
     </div>
   </div>
