@@ -228,6 +228,10 @@ blockquote p:last-child {
   }
 }
 
+.quote {
+  font-size: 1.5rem;
+}
+
 img {
   display: block;
   max-width: 100%;
