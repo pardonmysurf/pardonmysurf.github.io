@@ -31,7 +31,9 @@ title: Podcast
     <h1 class="post-title">{{ words[0] }}</h1>
     <h2 class="quote">« {{ words[1] }} »</h2>
     {{ episode.content }}
-    Téléchargez l'épisode <a href="https://hackerspublics.s3.fr-par.scw.cloud/{{ episode.file }}">en mp3</a> ou écoutez-le sur <a href="{{ episode.spotify_url }}">Spotify</a>, <a href="{{ episode.itunes_url }}">iTunes</a> ou votre <a href="{{ site.url }}/flux.rss">application de podcast préférée</a>.
+    <p class="cta">
+      Téléchargez l'épisode <a href="https://hackerspublics.s3.fr-par.scw.cloud/{{ episode.file }}">en mp3</a> ou écoutez-le sur <a href="{{ episode.spotify_url }}">Spotify</a>, <a href="{{ episode.itunes_url }}">iTunes</a> ou votre <a href="{{ site.url }}/flux.rss">application de podcast préférée</a>.
+    </p>
   </div>
   {% endfor %}
 </div>
