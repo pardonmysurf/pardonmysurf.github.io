@@ -88,6 +88,10 @@ html {
   }
 }
 
+.sidebar-title {
+  padding-bottom: 2rem
+}
+
 /* Sidebar images */
 .sidebar-image {
   max-width: 4em;
