@@ -28,9 +28,7 @@ title: Podcast
   {% for episode in site.episodes reversed %}
   <div class="post">
     {% assign words = episode.title | split: ':' %}
-    <a href="{{ episode.url }}">
     <h1 class="post-title">{{ words[0] }}</h1>
-    </a>
     <h2 class="quote">« {{ words[1] }} »</h2>
     {{ episode.content }}
     <p class="cta">
