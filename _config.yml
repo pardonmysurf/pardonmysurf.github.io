@@ -28,7 +28,7 @@ defaults:
       type: "hackerspublics"
     values:
       layout: episode
-      image: https://f14e.fr/public/img/hackerspublics-banner.jpg
+      image: https://hackerspublics.fr/public/img/hackerspublics-banner-s2.jpg
   -
     scope:
       path: ""

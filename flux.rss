@@ -20,7 +20,7 @@ layout: null
     <itunes:category text="Government" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <itunes:image href="{{ site.url }}/public/img/hackerspublics.jpg" />
+    <itunes:image href="{{ site.url }}/public/img/hackerspublics-s2.jpg" />
     {% for episode in site.hackerspublics %}
     <item>
       <title>{{ episode.title }}</title>
