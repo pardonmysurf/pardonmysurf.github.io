@@ -10,7 +10,7 @@ tagline:          'Podcast'
 baseurl:          /
 paginate:         500
 collections:
-  episode:
+  episodes:
     output:       true
 
 # Podcast parameters
@@ -22,7 +22,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "episode"
+      type: "episodes"
     values:
       layout: episode
       image: https://hackerspublics.fr/public/img/hackerspublics-banner-s2.jpg

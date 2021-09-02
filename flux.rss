@@ -21,7 +21,7 @@ layout: null
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:image href="{{ site.url }}/public/img/hackerspublics-s2.jpg" />
-    {% for episode in site.episode %}
+    {% for episode in site.episodes %}
     <item>
       <title>{{ episode.title }}</title>
       <description>{{ episode.description }}</description>
