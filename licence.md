@@ -1,5 +1,5 @@
 ---
-layout: page_info
+layout: page
 title: Licence
 ---
 
