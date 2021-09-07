@@ -340,7 +340,7 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: 5em;
 }
 
 @media (max-width: 48em) {
