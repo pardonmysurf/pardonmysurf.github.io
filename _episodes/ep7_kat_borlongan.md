@@ -11,8 +11,6 @@ description: "Kat Borlongan est la directrice de la Mission French Tech. Elle no
 
 Kat Borlongan est la directrice de la Mission French Tech. Elle nous raconte son arrivée dans l’administration et sa stratégie pour attirer des talents dans les startups françaises. Nous abordons également la question de l’inclusion dans cet écosystème assez fermé ainsi que son secret pour bien raconter des histoires.
 
-Bonne écoute !
-
 Liens évoqués dans l'épisode :
 
 * [French Tech 120 et Next 40](https://lafrenchtech.com/fr/la-france-aide-les-startups/french-tech-120-2/)

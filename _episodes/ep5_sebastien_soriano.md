@@ -11,8 +11,6 @@ description: "Sébastien Soriano est le président de l’ARCEP, l’autorité d
 
 Sébastien Soriano est le président de l’ARCEP, l’autorité de régulation des communications électroniques et des Postes. Il nous partage sa vision des communs, appliquée au monde numérique qui nous entoure et nous explique la culture managériale qu’il a mis en place à l’ARCEP. Nous évoquons également la 5G, la régulation des GAFA et la question de la soutenabilité du numérique.
 
-Bonne écoute !
-
 Liens évoqués dans l'épisode :
 
 * [Laurent Schwartz](https://fr.wikipedia.org/wiki/Laurent_Schwartz_(math%C3%A9maticien))

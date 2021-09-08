@@ -10,8 +10,6 @@ description: "Arnaud Bontemps est co-fondateur du collectif « Nos services pub
 ---
 Arnaud Bontemps est co-fondateur du collectif « Nos services publics ». Nous avons parlé de la création du collectif et de ses ambitions, mais aussi de débat, d'innovation publique, de l'intérêt général et de la perte de sens dans les services publics aujourd'hui.
 
-Bonne écoute !
-
 Liens évoqués dans l'épisode :
 
 * [Collectif « Nos services publics »](https://nosservicespublics.fr/)

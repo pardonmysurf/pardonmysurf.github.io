@@ -11,8 +11,6 @@ description: "Claire Casubolo est la responsable du pôle « données » de la
 
 Claire Casubolo est la responsable du pôle « données » de la Cour des comptes. Elle nous raconte son parcours, à l’intersection de la science des données et de la recherche, et comment elle est devenue data scientist à la Cour des comptes. Claire nous explique également comment son équipe offre de nouveaux outils aux magistrats de la Cour des comptes et transforme ainsi la manière de faire des contrôles.
 
-Bonne écoute !
-
 Liens évoqués dans l'épisode :
 * [La Cour des comptes](https://www.ccomptes.fr/fr)
 * 📘 [Seta, d'Alessandro Baricco](https://fr.wikipedia.org/wiki/Soie_(roman))

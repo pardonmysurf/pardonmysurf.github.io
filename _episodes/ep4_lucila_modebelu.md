@@ -11,8 +11,6 @@ description: "Lucila Modebelu est la vice-président de l’association FP21 et 
 
 Lucila Modebelu est la vice-président de l’association FP21 et la directrice des affaires financières du Centre Hospitalier de Millau. Elle nous raconte son parcours, à l’intersection des milieux associatif, administratif et hospitalier. Lucila nous parle également de l’innovation dans la fonction publique québécoise et comment la COVID a accéléré la transformation numérique.
 
-Bonne écoute !
-
 Liens évoqués dans l'épisode :
 
 * [Fonction Publique du 21e siècle](http://fp21.fr/)

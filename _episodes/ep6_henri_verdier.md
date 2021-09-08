@@ -11,8 +11,6 @@ description: "Henri Verdier est l’ambassadeur pour le numérique. Il nous raco
 
 Henri Verdier est l’ambassadeur pour le numérique. Il évoque les débuts de l'Internet en France, et raconte la création d'Etalab et du portail data.gouv.fr. Nous échangeons également sur les nouvelles formes de management dans la fonction publique et sur la modération des réseaux sociaux.
 
-Bonne écoute !
-
 Liens évoqués dans l'épisode :
 
 * [Why Software Is Eating the World de Marc Andreessen](https://a16z.com/2011/08/20/why-software-is-eating-the-world/)

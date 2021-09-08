@@ -11,8 +11,6 @@ description: "Paul Duan est le fondateur de Bayes Impact, une association qui co
 
 Paul Duan est le fondateur de Bayes Impact, une association qui construit des services publics citoyens. Il nous raconte son parcours, à l’intersection de la science des données et de l’intérêt général, et comment il essaie d’avoir de l’impact au quotidien. Paul nous explique également comment la technologie et le design peuvent permettre de construire des produits qui aident les gens à prendre en main leur destin et à gagner en autonomie.
 
-Bonne écoute !
-
 Liens évoqués dans l'épisode :
 * [Bayes Impact](https://www.bayesimpact.org/fr/)
 * [Bob](https://www.bob-emploi.fr/)

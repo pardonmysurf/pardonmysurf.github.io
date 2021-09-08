@@ -10,8 +10,6 @@ description: "Laura Létourneau est la déléguée ministérielle au numérique 
 ---
 Laura Létourneau est la déléguée ministérielle au numérique en santé. Elle nous partage son point de vue sur l’ubérisation de l’État et nous parle de méta-plateforme. Nous évoquons également les questions de régulation par la donnée, d’interopérabilité, et d’éthique en santé.
 
-Bonne écoute !
-
 Liens évoqués dans l'épisode :
 
 * 📘 [Ubérisons l'Etat : Avant que d'autres ne s'en chargent, de Clément Bertholet et Laura Létourneau](https://www.armand-colin.com/uberisons-letat-avant-que-dautres-ne-sen-chargent-9782200617868)
