@@ -5,7 +5,7 @@ file: hackers_publics_10_martin_daniel.mp3
 duration: "44:00"
 guid: "20EE1A0D-9084-42D0-BA88-1426F3A3A794"
 spotify_url: https://open.spotify.com/episode/7DQuT2ziV7YjZo0keMSSoy?si=1677b60f2fa84b1d
-itunes_url:
+itunes_url: https://podcasts.apple.com/fr/podcast/hackers-publics/id1498775170?i=1000542978698
 description: "Martin Daniel est entrepreneur et aujourd'hui co-fondateur de la start up Carbonfact. Martin ne fait pas partie de l'administration mais il nous a semblé intéressant d'écouter son expérience avec Covidliste, lancé dans le contexte de crise sanitaire de l'hiver dernier. Il nous a parlé de la construction progressive de cette application, de la place importante que peut avoir la mobilisation citoyenne dans des projets d'intérêt général et plus généralement du travail d'entrepreneur public."
 ---
 
