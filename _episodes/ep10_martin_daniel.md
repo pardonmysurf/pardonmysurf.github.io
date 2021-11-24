@@ -1,5 +1,5 @@
 ---
-title: "#10 – Martin Danie : Est-ce que c'est au privé de faire ça? J'en sais rien mais il faut que ça existe et si ça n'existe pas, je vais le construire"
+title: "#10 – Martin Daniel : Est-ce que c'est au privé de faire ça? J'en sais rien mais il faut que ça existe et si ça n'existe pas, je vais le construire"
 date: 2021-11-24
 file: hackers_publics_10_martin_daniel.mp3
 duration: "44:00"
