@@ -4,8 +4,8 @@ date: 2022-03-01
 file: hackers_publics_11_gael_musquet.mp3
 duration: "53:42"
 guid: "78015A1F-E3D9-4299-843A-EA7258D0386E"
-spotify_url:
-itunes_url:
+spotify_url: https://open.spotify.com/episode/6EuixiMRmiYiyb9WzJMTsg
+itunes_url: https://podcasts.apple.com/fr/podcast/hackers-publics/id1498775170?i=1000552579208
 description: "Gaël Musquet travaille aujourd'hui au Campus de l'espace de Vernon. Il nous raconte son expérience dans la fonction publique, comment il est devenu hacker éthique et quels sont ses engagements. Nous avons aussi parlé de voiture autonome, d’autonomie dans le travail, et de comment il reste positif alors qu’il travaille sur la prévention de catastrophes naturelles."
 ---
 
