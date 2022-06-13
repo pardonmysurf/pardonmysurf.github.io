@@ -1,5 +1,5 @@
 ---
-title: "#11 – Gaël Musquet : Dans ces moments-là, tout le monde est à égalité : il faut évacuer, point barre"
+title: "#11 – Gaël Musquet : Dans ces moments-là, tout le monde est à égalité - il faut évacuer, point barre"
 date: 2022-03-01
 file: hackers_publics_11_gael_musquet.mp3
 duration: "53:42"
