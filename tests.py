@@ -16,7 +16,7 @@ class TestPodcastPosts(unittest.TestCase):
 
     def test_podcast_posts(self):
         tags = []
-        for file in glob.glob("_hackerspublics/*.md"):
+        for file in glob.glob("_pardonmysurf/*.md"):
 
             with open(file) as f:
                 post = frontmatter.load(f)

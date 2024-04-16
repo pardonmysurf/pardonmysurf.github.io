@@ -1,7 +1,7 @@
 module.exports = {
   ci: {
     collect: {
-      staticDistDir: '/home/runner/work/hackerspublics.github.io/hackerspublics.github.io',
+      staticDistDir: '/home/runner/work/pardonmysurf.github.io/pardonmysurf.github.io',
       url: ['http://localhost/site/index.html'],
       numberOfRuns: 1
     },
