@@ -11,15 +11,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Prepare repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.6'
 
       - name: Restore cached dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
@@ -40,7 +40,7 @@ jobs:
       image: jekyll/jekyll:3.8
     steps:
       - name: Prepare repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Make directory
         run: mkdir -vp /__w/pardonmysurf.github.io/pardonmysurf.github.io/_site
@@ -49,16 +49,17 @@ jobs:
         run: jekyll build --config _config.yml,_config-lhci.yml
 
       - name: Upload built site
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: site
           path: /__w/pardonmysurf.github.io/pardonmysurf.github.io/_site
+
   htmlproofer-test:
     needs: jekyll-build
     runs-on: ubuntu-latest
     steps:
       - name: Download built site
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           path: /home/runner/work/pardonmysurf.github.io/pardonmysurf.github.io
 
@@ -72,36 +73,36 @@ jobs:
     needs: jekyll-build
     runs-on: ubuntu-latest
     steps:
-    - name: Prepare repo
-      uses: actions/checkout@v2
+      - name: Prepare repo
+        uses: actions/checkout@v3
 
-    - name: Keep only Lighthouse config file
-      run: find . \! -name '.lighthouserc.js' -delete
+      - name: Keep only Lighthouse config file
+        run: find . \! -name '.lighthouserc.js' -delete
 
-    - name: Download built site
-      uses: actions/download-artifact@v2
-      with:
-        path: /home/runner/work/pardonmysurf.github.io/pardonmysurf.github.io
+      - name: Download built site
+        uses: actions/download-artifact@v3
+        with:
+          path: /home/runner/work/pardonmysurf.github.io/pardonmysurf.github.io
 
-    - name: Use Node.js 10.x
-      uses: actions/setup-node@v1
-      with:
-        node-version: 10.x
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
 
-    - name: Create a folder for LHCI lhci_results
-      run: mkdir -vp /home/runner/work/lhci_results
+      - name: Create a folder for LHCI lhci_results
+        run: mkdir -vp /home/runner/work/lhci_results
 
-    - name: Run Lighthouse CI
-      run: |
-        npm install -g @lhci/cli@0.4.x
-        lhci collect --config /home/runner/work/pardonmysurf.github.io/pardonmysurf.github.io/.lighthouserc.js
-        lhci upload --config /home/runner/work/pardonmysurf.github.io/pardonmysurf.github.io/.lighthouserc.js
+      - name: Run Lighthouse CI
+        run: |
+          npm install -g @lhci/cli@0.4.x
+          lhci collect --config /home/runner/work/pardonmysurf.github.io/pardonmysurf.github.io/.lighthouserc.js
+          lhci upload --config /home/runner/work/pardonmysurf.github.io/pardonmysurf.github.io/.lighthouserc.js
 
-    - name: Upload LHCI results
-      uses: actions/upload-artifact@v2
-      with:
-        name: lhci_results
-        path: /home/runner/work/lhci_results
+      - name: Upload LHCI results
+        uses: actions/upload-artifact@v3
+        with:
+          name: lhci_results
+          path: /home/runner/work/lhci_results
 
-    - name: Assert Lighthouse CI
-      run: lhci assert --config /home/runner/work/pardonmysurf.github.io/pardonmysurf.github.io/.lighthouserc.js
+      - name: Assert Lighthouse CI
+        run: lhci assert --config /home/runner/work/pardonmysurf.github.io/pardonmysurf.github.io/.lighthouserc.js
