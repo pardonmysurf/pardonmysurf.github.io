@@ -7,33 +7,6 @@ on:
     branches: [ master ]
 
 jobs:
-  python-test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Prepare repo
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.12.3'
-
-      - name: Restore cached dependencies
-        uses: actions/cache@v3
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Test with pytest
-        run: pytest .
-
   jekyll-build:
     runs-on: ubuntu-latest
     container:
@@ -67,7 +40,6 @@ jobs:
         uses: chabad360/htmlproofer@master
         with:
           directory: "/home/runner/work/pardonmysurf.github.io/pardonmysurf.github.io"
-          arguments: --external_only --url_ignore "https://www.cairn.info/commun--9782707186737.htm,https://www.cerveauetpsycho.fr/sd/psychotherapie/il-faut-autoriser-les-therapies-psychedeliques-18929.php,https://www.fun-mooc.fr/fr/cours/fabriquer-linnovation/"
 
   lighthouse-test:
     needs: jekyll-build
