@@ -9,6 +9,4 @@ itunes_url: https://podcasts.apple.com/fr/podcast/xxx
 description: "Description"
 ---
 
-Bienvenue dans PardonMySurf, le podcast dans lequel … !
-
-Dans ce premier épisode, …
+Description de l'épisode
