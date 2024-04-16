@@ -31,17 +31,17 @@
  */
 
 @font-face {
- font-family: 'Roboto';
- src: url('../font/Roboto-Regular.ttf')  format('truetype');
+ font-family: 'Cardo';
+ src: url('../font/Cardo-Regular.ttf')  format('truetype');
 }
 
 @font-face {
- font-family: 'Roboto-Bold';
- src: url('../font/Roboto-Bold.ttf')  format('truetype');
+ font-family: 'Cardo-Bold';
+ src: url('../font/Cardo-Bold.ttf')  format('truetype');
 }
 
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Cardo', sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -125,7 +125,7 @@ html {
   color: rgba(0, 0, 0, 0.84);
   font-size: 1.25rem;
   vertical-align: middle;
-  font-family: 'Roboto-Bold';
+  font-family: 'Cardo-Bold';
 }
 
 @media (prefers-color-scheme: dark) {
