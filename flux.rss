@@ -12,15 +12,15 @@ layout: null
     <link>{{ site.url }}</link>
     <description>{{ site.podcast_description }}</description>
     <language>fr</language>
-    <itunes:author>Camille Boulouis</itunes:author>
+    <itunes:author>Pardon My Surf</itunes:author>
     <itunes:owner>
        <itunes:email>contact@pardonmysurf.fr</itunes:email>
     </itunes:owner>
-    <itunes:category text="Technology" />
-    <itunes:category text="Government" />
+    <itunes:category text="Sports" />
+    <itunes:category text="Sports News" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <itunes:image href="{{ site.url }}/public/img/hackerspublics-s2.jpg" />
+    <itunes:image href="{{ site.url }}/public/img/pms_logo_podcast.jpg" />
     {% for episode in site.episodes %}
     <item>
       <title>{{ episode.title }}</title>
@@ -28,7 +28,7 @@ layout: null
       <pubDate>{{ episode.date | date_to_xmlschema }}</pubDate>
       <itunes:order>1</itunes:order>
       <itunes:duration>{{ episode.duration }}</itunes:duration>
-      <enclosure url="https://hackerspublics.s3.fr-par.scw.cloud/{{ episode.file }}" type="audio/mpeg" />
+      <enclosure url="https://pardonmysurf.s3.fr-par.scw.cloud/{{ episode.file }}" type="audio/mpeg" />
       <guid>{{ episode.guid }}</guid>
     </item>
     {% endfor %}
