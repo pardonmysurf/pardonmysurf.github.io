@@ -40,11 +40,11 @@ url:              https://hackerspublics.fr
 
 author:
   name:           'PardonMySurf'
-  twitter:        PardonMySurf
+  instagram:      https://www.instagram.com/pardonmysurf/
 social:
   name:           PardonMySurf
   links:
-                  - https://twitter.com/HackersPublics
+                  - https://www.instagram.com/pardonmysurf/
 lang:             fr
 
 plugins:
