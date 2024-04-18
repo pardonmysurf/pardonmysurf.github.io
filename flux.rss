@@ -37,7 +37,7 @@ layout: null
         length="{{ episode.length }}"
       />
       <guid>https://pardonmysurf.s3.fr-par.scw.cloud/{{ episode.file }}</guid>
-      <link>"{{ site.url }}{{ episode.url }}"</link>
+      <link>{{ site.url }}{{ episode.url }}</link>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
