@@ -21,7 +21,7 @@ layout: null
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:image href="{{ site.url }}/public/img/pms_logo_podcast.jpg" />
-    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="{{ site.url }}/flux.rss" rel="self" type="application/rss+xml" />
     {% for episode in site.episodes %}
     <item>
       <title>{{ episode.title }}</title>
