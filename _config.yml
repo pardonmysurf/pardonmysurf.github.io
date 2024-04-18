@@ -25,7 +25,7 @@ defaults:
       type: "episodes"
     values:
       layout: episode
-      image: https://pardonmysurf.github.io//public/img/pms_logo.jpg
+      image: https://pardonmysurf.github.io/public/img/pms_logo.jpg
   -
     scope:
       path: ""
