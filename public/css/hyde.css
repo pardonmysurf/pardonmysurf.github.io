@@ -48,12 +48,6 @@ html {
     font-size: 16px;
   }
 }
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #002b36;
-    color: #93a1a1;
-  }
-}
 
 /*
  * Sidebar
@@ -114,11 +108,6 @@ html {
 .sidebar a {
   color: rgba(0, 0, 0, 0.84);
 }
-@media (prefers-color-scheme: dark) {
-  .sidebar a {
-    color: #93a1a1;
-  }
-}
 
 /* About section */
 .sidebar-about h1 {
@@ -128,11 +117,6 @@ html {
   font-family: 'Cardo-Bold';
 }
 
-@media (prefers-color-scheme: dark) {
-  .sidebar-about h1 {
-    color: #93a1a1;
-  }
-}
 @media (max-width: 48em) {
   .sidebar-about h1{
     margin: 0rem 1rem;

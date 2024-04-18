@@ -70,18 +70,9 @@ a {
   color: black;
   color: rgba(0, 0, 0, 0.84);
 }
-@media (prefers-color-scheme: dark) {
-  a {
-    color: #93a1a1;
-  }
-}
+
 h1 a {
   text-decoration: none;
-}
-@media (prefers-color-scheme: dark) {
-  h1 a {
-    color: #93a1a1;
-  }
 }
 
 a strong {
@@ -100,11 +91,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
   color: #313131;
   text-rendering: optimizeLegibility;
-}
-@media (prefers-color-scheme: dark) {
-  h1, h2, h3, h4, h5, h6 {
-    color: #93a1a1;
-  }
 }
 h1 {
   font-size: 2rem;
@@ -127,11 +113,6 @@ p {
 
 strong {
   color: #303030;
-}
-@media (prefers-color-scheme: dark) {
-  strong {
-    color: #93a1a1;
-  }
 }
 
 /* Lists */
@@ -179,12 +160,6 @@ code {
   background-color: #f9f9f9;
   border-radius: 3px;
 }
-@media (prefers-color-scheme: dark) {
-  code {
-    background-color: #073642;
-    color: #93a1a1;
-  }
-}
 pre {
   display: block;
   margin-top: 0;
@@ -211,12 +186,6 @@ blockquote {
   margin: .8rem 0;
   color: #7a7a7a;
   border-left: .25rem solid #e5e5e5;
-}
-@media (prefers-color-scheme: dark) {
-  blockquote {
-    color: #839496;
-    border-left: .25rem solid #839496;
-  }
 }
 blockquote p:last-child {
   margin-bottom: 0;
@@ -357,13 +326,6 @@ tbody tr:nth-child(odd) th {
   color: #303030;
   padding-bottom: 1%;
 }
-@media (prefers-color-scheme: dark) {
-  .page-title,
-  .post-title,
-  .post-title a {
-    color: #93a1a1;
-  }
-}
 
 /* Meta data line below post title */
 .post-date {
@@ -379,11 +341,6 @@ tbody tr:nth-child(odd) th {
   font-size: .7em;
   font-weight: 600;
 }
-@media (prefers-color-scheme: dark) {
-  .post-date {
-    color: #93a1a1;
-  }
-}
 
 .post-tags {
   margin-bottom: 1rem;
@@ -392,11 +349,6 @@ tbody tr:nth-child(odd) th {
   font-family: 'Source Sans Pro',sans-serif;
   font-size: .7em;
   font-weight: 600;
-}
-@media (prefers-color-scheme: dark) {
-  .post-tags {
-    color: #93a1a1;
-  }
 }
 
 /* Related posts */
@@ -415,11 +367,6 @@ tbody tr:nth-child(odd) th {
 .related-posts li small {
   font-size: 75%;
   color: #999;
-}
-@media (prefers-color-scheme: dark) {
-  .related-posts li small {
-    color: #839496;
-  }
 }
 .related-posts li a:hover small {
   color: inherit;
@@ -483,21 +430,6 @@ a.pagination-item:hover {
  *
  */
 
-@media (prefers-color-scheme: dark) {
-  .facebook{
-    fill: #93a1a1;
-  }
-}
-@media (prefers-color-scheme: dark) {
-  .twitter{
-    fill: #93a1a1;
-  }
-}
-@media (prefers-color-scheme: dark) {
-  .linkedin{
-    fill: #93a1a1;
-  }
-}
 
 .share-buttons {
   display: flex;
