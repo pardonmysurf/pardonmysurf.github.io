@@ -25,6 +25,8 @@ layout: null
     {% for episode in site.episodes %}
     <item>
       <title>{{ episode.title }}</title>
+      <itunes:episode>{{ episode.position }}</itunes:episode>
+      <itunes:season>{{ episode.season }}</itunes:season>
       <description>{{ episode.description }}</description>
       <pubDate>{{ episode.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
       <itunes:duration>{{ episode.duration }}</itunes:duration>

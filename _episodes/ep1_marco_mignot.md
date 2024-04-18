@@ -5,6 +5,8 @@ file: pardonmysurf_1_marco-mignot.mp3
 image: pardonmysurf_1_marco-mignot.jpg
 duration: "46:03"
 length: "38741174"
+position: "1"
+season: "1"
 spotify_url: http://example.com/
 itunes_url: http://example.com/
 description: "Description"
