@@ -16,9 +16,7 @@ layout: null
     <itunes:owner>
        <itunes:email>contact@pardonmysurf.fr</itunes:email>
     </itunes:owner>
-    <itunes:category text="Sports">
-      <itunes:category text="Sports News"/>
-    </itunes:category>
+    <itunes:category text="Sports" />
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:image href="{{ site.url }}/public/img/pms_logo_podcast.jpg" />
