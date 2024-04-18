@@ -30,7 +30,7 @@ layout: null
       <enclosure
         url="https://pardonmysurf.s3.fr-par.scw.cloud/{{ episode.file }}"
         type="audio/mpeg"
-        length={{ episode.length }}
+        length="{{ episode.length }}"
       />
       <guid>https://pardonmysurf.s3.fr-par.scw.cloud/{{ episode.file }}</guid>
       <itunes:episodeType>full</itunes:episodeType>
