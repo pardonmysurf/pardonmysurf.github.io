@@ -24,7 +24,7 @@ layout: null
     <item>
       <title>{{ episode.title }}</title>
       <description>{{ episode.description }}</description>
-      <pubDate>{{ episode.date | date_to_xmlschema }}</pubDate>
+      <pubDate>{{ episode.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
       <itunes:duration>{{ episode.duration }}</itunes:duration>
       <itunes:image href="{{ site.url }}/public/img/{{ episode.image }}" />
       <enclosure
