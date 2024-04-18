@@ -29,7 +29,7 @@ layout: null
       <itunes:duration>{{ episode.duration }}</itunes:duration>
       <itunes:image href="{{ site.url }}/public/img/{{ episode.image }}" />
       <enclosure url="https://pardonmysurf.s3.fr-par.scw.cloud/{{ episode.file }}" type="audio/mpeg" />
-      <guid>{{ episode.guid }}</guid>
+      <guid>{{ episode.url }}</guid>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
