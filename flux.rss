@@ -25,11 +25,14 @@ layout: null
       <title>{{ episode.title }}</title>
       <description>{{ episode.description }}</description>
       <pubDate>{{ episode.date | date_to_xmlschema }}</pubDate>
-      <itunes:order>1</itunes:order>
       <itunes:duration>{{ episode.duration }}</itunes:duration>
       <itunes:image href="{{ site.url }}/public/img/{{ episode.image }}" />
-      <enclosure url="https://pardonmysurf.s3.fr-par.scw.cloud/{{ episode.file }}" type="audio/mpeg" />
-      <guid>{{ episode.url }}</guid>
+      <enclosure
+        url="https://pardonmysurf.s3.fr-par.scw.cloud/{{ episode.file }}"
+        type="audio/mpeg"
+        length={{ episode.length }}
+      />
+      <guid>https://pardonmysurf.s3.fr-par.scw.cloud/{{ episode.file }}</guid>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
