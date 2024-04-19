@@ -14,8 +14,8 @@ collections:
     output:       true
 
 # Podcast parameters
-podcast_title:    Pardon My Surf – Le Podcast
-podcast_description:  Bienvenue dans Pardon My Surf, le podcast pour les surfeurs passionnés et ceux qui veulent le devenir. 
+podcast_title:    PardonMySurf – Le Podcast
+podcast_description:  Bienvenue dans PardonMySurf, le podcast pour les surfeurs passionnés et ceux qui veulent le devenir. 
 
 # Default parameters
 defaults:
@@ -34,7 +34,7 @@ defaults:
       layout: post
 
 #SEO tag
-title:            Pardon My Surf
+title:            PardonMySurf
 description:      Podcast
 url:              https://pardonmysurf.github.io/
 

@@ -13,7 +13,7 @@ layout: null
     <link>{{ site.url }}</link>
     <description>{{ site.podcast_description }}</description>
     <language>fr</language>
-    <itunes:author>Pardon My Surf</itunes:author>
+    <itunes:author>PardonMySurf</itunes:author>
     <itunes:owner>
        <itunes:email>contact@pardonmysurf.fr</itunes:email>
     </itunes:owner>
