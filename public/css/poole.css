@@ -148,6 +148,13 @@ abbr[title] {
   border-bottom: 1px dotted #e5e5e5;
 }
 
+.post-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
+
 /* Code */
 code,
 pre {
