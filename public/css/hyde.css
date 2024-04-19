@@ -85,7 +85,7 @@ html {
 
 /* Sidebar images */
 .sidebar-image {
-  max-width: 10em;
+  max-width: 7em;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
@@ -94,7 +94,7 @@ html {
 }
 @media (min-width: 48em) {
   .sidebar-image {
-    max-width: 7em;
+    max-width: 10em;
   }
 }
 .sidebar-image-link{
