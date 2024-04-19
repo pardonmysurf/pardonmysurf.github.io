@@ -9,7 +9,7 @@ position: "1"
 season: "1"
 spotify_url: http://example.com/
 itunes_url: http://example.com/
-description: "Description"
+description: "Marco Mignot revient sur son début d’année, les Championnats du Monde ISA à Porto Rico, La 3ème épreuve du CT à Peniche au Portugal et se projette sur le rêve de sa vie, une qualification sur le CT. Ensemble, on va parler, équipe de France, JO, CT, motivation et ambition."
 ---
 
 Marco Mignot revient sur son début d’année, les Championnats du Monde ISA à Porto Rico, La 3ème épreuve du CT à Peniche au Portugal et se projette sur le rêve de sa vie, une qualification sur le CT.
