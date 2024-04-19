@@ -82,6 +82,12 @@ html {
   }
 }
 
+@media (max-width: 48em) {
+  .sidebar-title {
+    display: none;
+  }
+}
+
 .sidebar-title {
   padding-bottom: 2rem
 }
