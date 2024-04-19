@@ -3,6 +3,7 @@ title: "#1 - L'ITW Compet' Marco Mignot : Tout l’aspect de préparation pour l
 date: 2024-04-16
 file: pardonmysurf_1_marco-mignot.mp3
 image: pardonmysurf_1_marco-mignot.jpg
+imageweb: pardonmysurf_1_marco-mignot_web.jpg
 duration: "46:03"
 length: "38741174"
 position: "1"
