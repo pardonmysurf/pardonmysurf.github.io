@@ -122,6 +122,7 @@ html {
 
 /* Sidebar nav */
 .sidebar-nav {
+  padding-top: 1rem;
   margin-bottom: 1rem;
 }
 .sidebar-nav-item {
