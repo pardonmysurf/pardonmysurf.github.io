@@ -71,15 +71,11 @@ html {
     left: 0;
     bottom: 0;
     width: 18rem;
-    text-align: left;
   }
 }
 @media (max-width: 48em) {
   .sidebar{
     padding: 1rem 1rem;
-  }
-  .mj-w-res-iframe{
-    display: none;
   }
 }
 
