@@ -36,8 +36,8 @@
 }
 
 @font-face {
-  font-family: 'NexaSlab';
-  src: url('../font/NexaSlab-Regular.ttf')  format('truetype');
+  font-family: 'PardonMySurf';
+  src: url('../font/PardonMySurf.ttf')  format('truetype');
 }
 
 html {
@@ -115,8 +115,6 @@ html {
   font-size: 1.25rem;
   vertical-align: middle;
   font-family: 'PardonMySurf';
-  src: url('../font/PardonMySurf.ttf')  format('truetype');
- }
 }
 
 @media (max-width: 48em) {
