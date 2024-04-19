@@ -31,17 +31,17 @@
  */
 
 @font-face {
- font-family: 'Cardo';
- src: url('../font/Cardo-Regular.ttf')  format('truetype');
+ font-family: 'NexaSlab';
+ src: url('../font/NexaSlab-Regular.ttf')  format('truetype');
 }
 
 @font-face {
- font-family: 'Cardo-Bold';
- src: url('../font/Cardo-Bold.ttf')  format('truetype');
+  font-family: 'NexaSlab';
+  src: url('../font/NexaSlab-Regular.ttf')  format('truetype');
 }
 
 html {
-  font-family: 'Cardo', sans-serif;
+  font-family: 'NexaSlab', sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -114,7 +114,7 @@ html {
   color: rgba(0, 0, 0, 0.84);
   font-size: 1.25rem;
   vertical-align: middle;
-  font-family: 'Cardo-Bold';
+  font-family: 'PardonMySurf';
 }
 
 @media (max-width: 48em) {
