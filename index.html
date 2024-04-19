@@ -24,7 +24,7 @@ title: Podcast
     {% assign words = episode.title | split: ':' %}
     <h1 class="post-title">{{ words[0] }}</h1>
     <img src="{{ site.url }}public/img/{{ episode.imageweb }}" class="post-image">
-    <h2 class="quote">« {{ words[1] }} »</h2>
+    <h2 class="quote">«{{ words[1] }} »</h2>
     {{ episode.content }}
     <p class="cta">
       Téléchargez l'épisode <a href="https://pardonmysurf.s3.fr-par.scw.cloud/{{ episode.file }}">en mp3</a> ou écoutez-le sur <a href="{{ episode.spotify_url }}">Spotify</a>, <a href="{{ episode.itunes_url }}">iTunes</a> ou votre <a href="{{ site.url }}flux.rss">application de podcast préférée</a>.
