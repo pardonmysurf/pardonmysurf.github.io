@@ -112,6 +112,13 @@ html {
   padding-left: 0.8em;
 }
 
+@media (max-width: 48em) {
+  .sidebar-about{
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+  }
+}
+
 .sidebar-about h1 {
   color: rgba(0, 0, 0, 0.84);
   font-size: 1.25rem;
