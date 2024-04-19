@@ -32,7 +32,7 @@
 
 @font-face {
  font-family: 'NexaSlab';
- src: url('../font/NexaSlab-Regular.ttf')  format('truetype');
+ src: url('../font/NexaSlab-Regular.otf')  format('opentype');
 }
 
 @font-face {
