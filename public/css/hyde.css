@@ -43,7 +43,7 @@
 html {
   font-family: 'NexaSlab', sans-serif;
 }
-@media (min-width: 48em) {
+@media (min-width: 48.01em) {
   html {
     font-size: 16px;
   }
@@ -63,7 +63,7 @@ html {
   line-height: 1;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 48.01em) {
   .sidebar {
     padding: 2rem 1rem;
     position: fixed;
@@ -88,7 +88,7 @@ html {
   display: inline-block;
   vertical-align: middle;
 }
-@media (min-width: 48em) {
+@media (min-width: 48.01em) {
   .sidebar-image {
     max-width: 10em;
   }
@@ -147,7 +147,7 @@ a.sidebar-nav-item:focus {
 .sidebar-nav h4 {
   margin-bottom: 0;
 }
-@media (min-width: 48em) {
+@media (min-width: 48.01em) {
   .sidebar-nav h4{
     margin-top: 15%;
   }
@@ -159,7 +159,7 @@ a.sidebar-nav-item:focus {
  * contents to the bottom of the sidebar in tablets and up.
  */
 
-@media (min-width: 48em) {
+@media (min-width: 48.01em) {
   .sidebar-sticky {
     right:  1rem;
     bottom: 1rem;
@@ -197,7 +197,7 @@ a.sidebar-nav-item:focus {
   padding: 1rem .5rem;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 48.01em) {
   .content {
     max-width: 38rem;
     margin-left: 20rem;
