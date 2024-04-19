@@ -111,7 +111,8 @@ html {
   color: rgba(0, 0, 0, 0.84);
   font-size: 1.25rem;
   vertical-align: middle;
-  font-family: 'PardonMySurf';
+  padding-top: 0.8em;
+  padding-left: 0.8em;
 }
 
 @media (max-width: 48em) {
