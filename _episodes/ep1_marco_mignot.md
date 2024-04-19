@@ -1,5 +1,5 @@
 ---
-title: "#1 - L'ITW Compet' Marco Mignot : Phrase extraite de l'interview"
+title: "#1 - L'ITW Compet' Marco Mignot : Tout l’aspect de préparation pour la compet, j’adore!"
 date: 2024-04-16
 file: pardonmysurf_1_marco-mignot.mp3
 image: pardonmysurf_1_marco-mignot.jpg
@@ -12,4 +12,6 @@ itunes_url: http://example.com/
 description: "Description"
 ---
 
-Description de l'épisode
+Marco Mignot revient sur son début d’année, les Championnats du Monde ISA à Porto Rico, La 3ème épreuve du CT à Peniche au Portugal et se projette sur le rêve de sa vie, une qualification sur le CT.
+
+Ensemble, on va parler, équipe de France, JO, CT, motivation et ambition.
