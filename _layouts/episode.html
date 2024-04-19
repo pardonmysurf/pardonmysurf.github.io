@@ -5,6 +5,7 @@ layout: default
 <div class="post">
   {% assign words = page.title | split: ':' %}
   <h1 class="post-title">{{ words[0] }}</h1>
+  <img src="{{ site.url }}public/img/{{ page.imageweb }}" class="post-image">
   <h2 class="quote">« {{ words[1] }} »</h2>
   {{ content }}
   <p class="cta">
