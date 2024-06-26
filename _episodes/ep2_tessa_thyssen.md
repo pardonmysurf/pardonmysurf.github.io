@@ -1,5 +1,5 @@
 ---
-title: "#2 - Objectif CT 2025 avec Tessa Thyssen : Partie 1 – Gold Coast Pro & Sydney Surf Pro"
+title: "#2 - Objectif CT 2025 avec Tessa Thyssen : Épisode 1 – Gold Coast Pro & Sydney Surf Pro"
 date: 2024-06-26
 file: pardonmysurf_2_tessa-thyssen.mp3
 image: pardonmysurf_2_tessa-thyssen.jpg
