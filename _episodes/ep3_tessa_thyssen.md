@@ -8,8 +8,8 @@ duration: "35:45"
 length: "29403878"
 position: "3"
 season: "1"
-spotify_url: 
-itunes_url: 
+spotify_url: https://open.spotify.com/episode/3VHtqzyAbfSAiljeQZDfP9?si=981ef9cd79c34abf
+itunes_url: https://podcasts.apple.com/fr/podcast/pardonmysurf-le-podcast/id1742516748?i=1000663100909
 description: "Suivez avec nous les aventures de Tessa Thyssen dans sa quête du Championship Tour tout le long de la saison des Challenger Series. Dans ce 2ème épisode, on poursuit nos échanges avec Tessa après sa très belle performance lors du 3ème Challenger Series à Ballito. Elle revient avec nous sur sa préparation, son état d'esprit avant, pendant et après la compétition. On va également faire ensemble le bilan à mi-parcours de ce Challenger Series 2024."
 ---
 
